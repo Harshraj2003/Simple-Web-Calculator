@@ -1,0 +1,58 @@
+#calculator {
+    border: 3px solid rgb(187,183,183);
+    border-radius : 5px;
+    width : 200px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);  /* Soft shadow */
+    background: white;
+    padding: 15px;
+    border-radius: 10px;  /* Smooth edges */
+
+}
+
+#display {
+    margin: 10px;
+    width: 80%;
+    font-size:25px;
+    height: 20px;
+    text-align: left;
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;  
+}
+
+.button {
+    width: 45px;
+    height:45px;
+    margin:3px;
+    cursor: pointer; /* Changes cursor to pointer */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    border-radius: 8px;  /* Rounded edges */
+    font-size: 18px;  /* Slightly bigger font */
+    font-weight: Lightbold;  /* Bold text for better readability */
+    transition: all 0.2s ease-in-out;  /* Smooth animations */  
+}
+.button:hover {
+    background-color: Lightgrey; /* Changes color when hovered */
+    transform: scale(1.05);  /* Slight zoom effect */
+
+}
+
+body {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100vh;            /* Full viewport height */
+    background-color: #f4f4f4; /* Light background for better visibility */
+    margin: 0;
+}
